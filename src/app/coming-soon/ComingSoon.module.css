@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:wght@400;700&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000; /* Black background */
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 24px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+}
