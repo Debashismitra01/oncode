@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&family=Archivo+Black&family=Exo:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.navbar {
+    background-color: black;
+    color: #26ab7b;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    gap: 10%;
+    position: relative;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+    color: inherit;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.items {
+    padding: 10px 0;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.items:hover {
+    border-bottom: 2px solid #26ab7b;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: #26ab7b;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Hamburger Menu Icon */
+.menuToggle {
+    display: none;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #26ab7b;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+/* Change hamburger icon when active */
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+/* Responsive Styles */
+@media (max-width: 820px) {
+    .right {
+        display: none; /* Hide by default on mobile */
+    }
+
+    .navbar.isActive .right {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .navlist {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .menuToggle {
+        display: block; /* Show the hamburger icon on mobile */
+    }
+}

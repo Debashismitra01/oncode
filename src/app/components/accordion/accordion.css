@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&family=Archivo+Black&family=Exo:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.title{
+    font-size: 30px;
+    padding: 5% 0 2% 0;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  text-align: center;
+  font-style: normal;
+  background: linear-gradient(90deg, #0fd0e5, #26AB7b);
+            background-size: 120%; /* Ensures the gradient shifts smoothly */
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: gradientShift 3s linear infinite;
+}
+.accordion {
+    width: 80vw;;
+    border-radius: 50px;
+    overflow: hidden;
+    color: black;
+    background-color: white;
+  }
+  
+  .accordion-tile {
+    border-top: 1px solid #ddd;
+  }
+  
+  .accordion-header {
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion-header:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .accordion-content {
+    padding: 15px 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    animation: slide-down 0.3s ease-in-out;
+  }
+  
+  @keyframes slide-down {
+    from {
+      max-height: 0;
+      opacity: 0;
+    }
+    to {
+      max-height: 500px;
+      opacity: 1;
+    }
+  }
+  

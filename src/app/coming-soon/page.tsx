@@ -12,6 +12,7 @@ const ComingSoon: React.FC = () => {
       <div className={styles.content}>
         <h1>Coming Soon</h1>
         <p>We are working hard to bring you something amazing!</p>
+        <a href="/">Go Back</a>
       </div>
     </div>
   );

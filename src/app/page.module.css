@@ -1,98 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
-.page{
-  margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&family=Archivo+Black&family=Exo:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.page {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll; /* Enable vertical scrolling */
 }
 
-.navbar{
-  background-color: white;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  padding: 0px 40px;
-  .image{
-    padding-top: 2px;
-  }
-  .right{
-    display: flex;
-    gap: 30px;
-    color:black
-    
-  }
-  .navlist{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-  .btn{
-    padding: 5px 10px;
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-  }
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.page::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 50px; /* Width of the scrollbar */
 }
-.main{
-  height: 100vh;
+
+.page::-webkit-scrollbar-track {
+  background: transparent; /* Track color */
+}
+
+.page::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #60efff, #25ab7B); /* Gradient color */
+  border-radius: 50px; /* Round the corners */
+}
+
+/* For Firefox */
+.page {
+  scrollbar-width: thin; /* Set the scrollbar width */
+  scrollbar-color: #25ab7B #f0f0f0; /* Thumb and track color */
+}
+
+.main {
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-image: url("/background.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: black;
+  color: #26AB7b;
 }
-.main h1{
-  font-size: 64px;
+
+.main h1 {
+  font-size: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
 }
-.main h2{
-  font-size: 35px;
+
+.textanimate {
+  background: linear-gradient(90deg, #60efff, #26AB7b);
+  background-size: 120%; /* Ensures the gradient shifts smoothly */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientShift 3s linear infinite;
 }
-.main span{
-  color: black;
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
 }
-.main p{
+
+.main p {
   max-width: 600px;
-  text-align: center;
   margin-top: 10px;
   font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
+  color: white;
+  font-size: 24px;
 }
-.mainaction{
+
+.mainaction {
   display: flex;
-  gap:30px;
+  gap: 30px;
   margin-top: 20px;
   font-family: "Exo", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
-  
 }
-.maincontact{
+
+.maincontact,
+.mainscroll {
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease; /* Smooth transition */
+}
+
+.maincontact {
   background-color: white;
-  border: 2px solid white;
-  border-radius: 50px;
   color: black;
-  padding: 10px 40px;
 }
-.maincontact:hover{
+
+.maincontact:hover {
   background-color: black;
-  border: 2px solid white;
-  border-radius: 50px;
   color: white;
-  padding: 10px 40px;
 }
-.mainscroll{
-  border: 2px solid white;
-  border-radius: 50px;
-  padding: 10px 40px;
+
+.mainscroll:hover {
+  background: linear-gradient(90deg, #60efff, #26AB7b);
+  background-size: 120%;
+  background-clip: border-box;
+  color: black; /* Change text color on hover */
+  border: 2px solid transparent;
 }
-.mainscroll:hover{
-  border: 2px solid black;
-  color: black;
-  border-radius: 50px;
-  padding: 10px 40px;
+
+@media (max-width: 820px) {
+  .main {
+    text-align: left;
+    padding-left: 5%;
+  }
 }

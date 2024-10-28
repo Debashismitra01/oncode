@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&family=Archivo+Black&family=Exo:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.about_container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background: linear-gradient(90deg, #00b6ca, #26AB7b);
+              background-size: 120%; /* Ensures the gradient shifts smoothly */
+              background-clip: text;
+              -webkit-background-clip: text;
+              color: transparent;
+              animation: gradientShift 3s linear infinite;
+}
+
+.subtitle {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: aqua;
+}
+
+.about-container ul {
+    margin-left: 20px;
+}
+
+.about-container li {
+    margin-bottom: 10px;
+}
+.about-footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+  }

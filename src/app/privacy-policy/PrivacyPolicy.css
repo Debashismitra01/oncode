@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&family=Archivo+Black&family=Exo:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.privacy-policy {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    width: 100vw;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: white;
+  }
+  
+  .privacy-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #08e4fc, #26AB7b);
+              background-size: 120%; /* Ensures the gradient shifts smoothly */
+              background-clip: text;
+              -webkit-background-clip: text;
+              color: transparent;
+              animation: gradientShift 3s linear infinite;
+  }
+  
+  .privacy-header p {
+    font-size: 1.2rem;
+    color: #000000;
+  }
+  
+  .privacy-section {
+    margin-bottom: 20px;
+  }
+  
+  .privacy-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .privacy-section h3 {
+    font-size: 1.5rem;
+    color: #444;
+  }
+  .privacy-section h4 {
+    font-size: 1.5rem;
+    color: #373232;
+  }
+  
+  .privacy-section p,
+  .privacy-section ul {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .privacy-footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  

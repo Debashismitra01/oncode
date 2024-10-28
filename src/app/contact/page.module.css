@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&family=Archivo+Black&family=Exo:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 2% 5%;
+    color: black;
+    background-color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    
+}
+.overlay{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    gap:20px;
+}
+.overlay h2{
+    font-size: 50px;
+    padding: 2% 0%;
+    background: linear-gradient(90deg, #08e4fc, #26AB7b);
+              background-size: 120%; /* Ensures the gradient shifts smoothly */
+              background-clip: text;
+              -webkit-background-clip: text;
+              color: transparent;
+              animation: gradientShift 3s linear infinite;
+}
+.overlay p{
+    font-size: 24px;
+}
+.overlay a{
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 50px;
+        color: black;
+        padding: 10px 40px;
+    }
+      .overlay a:hover{
+        background-color: black;
+        border: 2px solid white;
+        border-radius: 50px;
+        color: white;
+        padding: 10px 40px;
+      }
+.leftcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 30%;
+}
+
+.leftcontainer h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    background-image: linear-gradient(90deg, #08e4fc, #26AB7b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.leftcontainer p {
+    max-width: 550px;
+    font-size: 20px;
+}
+
+.rightcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.rightcontainer label {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.rightcontainer input {
+    border: none;
+    border-radius: 4px;
+    width: 700px;
+    height: 60px;
+    padding-left: 20px;
+    background-color: #e4dfdf;
+    color: #38383c;
+    font-size: 22px;
+    font-family: Outfit;
+}
+
+.rightcontainer textarea {
+    border: none;
+    border-radius: 4px;
+    width: 650px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #e4dfdf;
+    color: #38383c;
+    font-size: 22px;
+}
+
+.contactsubmit {
+    padding: 20px 40px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #60efff, #26AB7b);
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+}
+
+.contactsubmit:hover {
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 820px) {
+    .contact {
+        flex-direction: column;
+    }
+    .rightcontainer input {
+        width: 100%;
+    }
+    
+    .rightcontainer textarea {
+        width: 90%;
+    }
+}

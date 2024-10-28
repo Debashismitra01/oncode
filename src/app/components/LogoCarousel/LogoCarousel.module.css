@@ -1,0 +1,30 @@
+/* components/LogoCarousel.module.css */
+.carousel {
+    overflow: hidden;
+    width: 100%;
+background-color: white;}
+  
+  .track {
+    display: flex;
+    animation: scroll 50s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo {
+    display: inline-block;
+    padding: 2px 20px;
+    white-space: nowrap;
+  }
+  @media (max-width: 820px) {
+    .track {
+      animation: scroll 20s linear infinite;
+    }
+  }
