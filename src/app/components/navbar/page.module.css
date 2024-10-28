@@ -3,6 +3,8 @@
 .navbar {
     background-color: black;
     color: #26ab7b;
+    height:20vh;
+    font-size:24px;
     font-family: "Red Hat Display", sans-serif;
     font-weight: 500;
     display: flex;
