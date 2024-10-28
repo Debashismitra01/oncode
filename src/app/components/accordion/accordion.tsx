@@ -27,7 +27,7 @@ const AccordionTile: React.FC<AccordionTileProps> = ({ title, content }) => {
 export const Accordion: React.FC = () => {
   const tiles = [
     { title: 'Website Development', content: 'Oncode offers custom website design and development services, ensuring a fully responsive and mobile-friendly experience. We handle both frontend and backend integration for a seamless user experience.' },
-    { title: 'Mobile App DevelopmentTile 2', content: 'Our team specializes in developing user-friendly mobile applications for iOS and Android, with responsive interfaces, robust backend support, and API integration.' },
+    { title: 'Mobile App Development', content: 'Our team specializes in developing user-friendly mobile applications for iOS and Android, with responsive interfaces, robust backend support, and API integration.' },
     { title: 'UI/UX Design', content: 'We provide comprehensive UI/UX design services, including wireframing, prototyping, and visual design focused on enhancing the user experience. Our designs cater to both web and mobile platforms.' },
     { title: 'DevOps Solutions', content: 'Oncode provides DevOps solutions for efficient development workflows, including CI/CD pipeline automation, cloud deployment, and infrastructure as code (IaC).' },
     { title: 'AI & Machine Learning Integration', content: 'We offer custom machine learning model development and AI-based analytics, integrating advanced AI/ML features directly into applications to provide valuable insights.' },
