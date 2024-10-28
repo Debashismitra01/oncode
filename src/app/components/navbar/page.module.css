@@ -85,6 +85,9 @@
 
 /* Responsive Styles */
 @media (max-width: 820px) {
+    .navbar{
+        height:auto;
+    }
     .right {
         display: none; /* Hide by default on mobile */
     }
