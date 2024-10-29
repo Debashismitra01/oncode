@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <!-- Home Page -->
    <url>
-      <loc>https://www.oncode.com/</loc>
+      <loc>https://www.oncode.in/</loc>
       <lastmod>2024-10-29</lastmod>
       <priority>1.0</priority>
    </url>
-
-   <!-- Contact Page -->
    <url>
-      <loc>https://www.oncode.com/contact</loc>
+      <loc>https://www.oncode.in/contact</loc>
       <lastmod>2024-10-29</lastmod>
       <priority>0.8</priority>
    </url>
-
-   <!-- About Page -->
    <url>
-      <loc>https://www.oncode.com/about</loc>
+      <loc>https://www.oncode.in/about</loc>
       <lastmod>2024-10-29</lastmod>
       <priority>0.8</priority>
    </url>
-
-   <!-- Future Blog Page -->
    <url>
-      <loc>https://www.oncode.com/blog</loc>
+      <loc>https://www.oncode.in/blog</loc>
       <priority>0.6</priority>
    </url>
-
-   <!-- Future Community Page -->
    <url>
-      <loc>https://www.oncode.com/community</loc>
+      <loc>https://www.oncode.in/community</loc>
       <priority>0.6</priority>
    </url>
 </urlset>
