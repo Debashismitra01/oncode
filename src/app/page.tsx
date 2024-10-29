@@ -5,10 +5,14 @@ import styles from "./page.module.css";
 import Navbar from "./components/navbar/navbar";
 import Hero from "./components/Hero/hero";
 import Footer from "./components/Footer/Footer";
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Head>
+        <title>Oncode</title>
+      </Head>
       <Navbar/>
       <main className={styles.main}>
             <h2 className={styles.textanimate} >Crafting Experience</h2>
