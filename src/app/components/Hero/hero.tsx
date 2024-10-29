@@ -7,7 +7,7 @@ import LogoCarousel from "../LogoCarousel/LogoCarousel";
 export default function Hero(){
     return(
         <div className={styles.hero} id="Hero">
-            <h1 className={styles.title}>Scale Your Online Presence with Skilled Tech Developers</h1>
+            <h2 className={styles.title}>Scale Your Online Presence with Skilled Tech Developers</h2>
             
             <div className={styles.community}>
                 <div className={styles.text}>
