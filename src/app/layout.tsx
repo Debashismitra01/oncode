@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Oncode",
-  description: "Oncode is cutting-edge coding company focused on developing and maintaining websites and applications for startups in India. We specialize in delivering tailored software development solutions that empower businesses to thrive in the digital landscape. Our expert team combines creativity and technology to transform ideas into robust digital products, ensuring a collaborative approach and ongoing support for our clients.",
+  description: "Oncode is a dynamic coding company providing versatile development services for clients across all industries. From building and maintaining websites to custom software and application solutions, Oncode empowers businesses with cutting-edge technology to thrive in the digital world. Our expert team combines creativity with technical expertise to deliver robust, scalable, and innovative digital products that meet the unique needs of each client.",
 };
 
 export default function RootLayout({
