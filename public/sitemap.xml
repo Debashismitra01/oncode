@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Home Page -->
+   <url>
+      <loc>https://www.oncode.com/</loc>
+      <lastmod>2024-10-29</lastmod>
+      <priority>1.0</priority>
+   </url>
+
+   <!-- Contact Page -->
+   <url>
+      <loc>https://www.oncode.com/contact</loc>
+      <lastmod>2024-10-29</lastmod>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- About Page -->
+   <url>
+      <loc>https://www.oncode.com/about</loc>
+      <lastmod>2024-10-29</lastmod>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Future Blog Page -->
+   <url>
+      <loc>https://www.oncode.com/blog</loc>
+      <priority>0.6</priority>
+   </url>
+
+   <!-- Future Community Page -->
+   <url>
+      <loc>https://www.oncode.com/community</loc>
+      <priority>0.6</priority>
+   </url>
+</urlset>
