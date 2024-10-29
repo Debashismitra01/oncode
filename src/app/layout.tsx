@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Oncode",
-  description: "Oncode is a dynamic coding company providing versatile development services for clients across all industries. From building and maintaining websites to custom software and application solutions, Oncode empowers businesses with cutting-edge technology to thrive in the digital world. Our expert team combines creativity with technical expertise to deliver robust, scalable, and innovative digital products that meet the unique needs of each client.",
+  title: "Oncode: Expert Coding Solutions for Websites & Apps",
+  description: "Discover Oncode, your go-to coding company in India for building and maintaining websites and apps, tailored to meet diverse client needs.",
 };
 
 export default function RootLayout({
