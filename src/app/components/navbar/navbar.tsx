@@ -15,7 +15,7 @@ export default function Navbar() {
     <div className={`${styles.navbar} ${isOpen ? styles.isActive : ""}`}>
       <div className={styles.image}>
         <Image src="/web.png" alt="Logo" width={80} height={40} />
-        <h2>Oncode</h2>
+        <h1>Oncode</h1>
       </div>
       
       <div className={`${styles.right} ${isOpen ? styles.open : ""}`}>
