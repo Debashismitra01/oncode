@@ -11,7 +11,7 @@ export default function Home() {
     <div className={styles.page}>
       <Navbar/>
       <main className={styles.main}>
-            <h1 className={styles.textanimate} >Crafting Experience</h1>
+            <h2 className={styles.textanimate} >Crafting Experience</h2>
             <p> We are a team of enthutiast tech innovator ready to develop High-performing software solutions</p>
             <div className={styles.mainaction}>
                 <div className={styles.maincontact}>
