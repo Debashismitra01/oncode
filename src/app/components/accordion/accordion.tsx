@@ -42,7 +42,7 @@ export const Accordion: React.FC = () => {
 
   return (
     <div className="accordion">
-        <h1 className="title">Our Services</h1>
+        <h2 className="title">Our Services</h2>
       {tiles.map((tile, index) => (
         <AccordionTile key={index} title={tile.title} content={tile.content} />
       ))}
