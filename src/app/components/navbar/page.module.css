@@ -72,7 +72,7 @@
 
 /* Change hamburger icon when active */
 .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 6px) rotate(-45deg);
 }
 
 .change .bar2 {
